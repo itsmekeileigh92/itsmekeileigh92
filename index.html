@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 20px;
+            font-family: 'Lucida Sans';
+            background-color: beige;
+            color: rgb(0, 0, 0);
+        }
+
+        img {
+            padding: 5px;
+            background-color: rgb(222, 222, 222);
+            border: 3px solid rgb(43, 43, 43);
+        }
+
+        div {
+            background-color: rgb(210, 210, 182);
+        }
+
+        h2 {
+            padding: 5px;
+            background-color: rgb(146, 146, 146);
+            border: 3px solid rgb(43, 43, 43);
+        }
+
+        h4 {
+            padding-left: 30px;
+            background-color: rgb(206, 206, 185);
+        }
+
+        h5 {
+            background-color: rgb(219, 219, 219);
+            padding: 5px;
+            border: 2px solid black;
+            width: 97%;
+            padding-left: 30px;
+        }
+
+        p {
+            padding-left: 30px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            margin-left: -5px;
+            margin-right: -5px;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        table {
+            border: 2px solid black;
+            border-spacing: 0;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding-top: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <div>
+            <img src="Profile.png" alt="" style="height: 100px; width: 100px;">
+        </div>
+        <div style="margin-left: 20px;">
+            <h2>Keisha Ashleigh F. Gonzales</h2>
+            <h4 style="padding: 5px;
+            background-color: rgb(146, 146, 146);
+            border: 3px solid rgb(43, 43, 43);
+            width: 40%;">Animator</h4>
+            <h5 style="width: 80%; ">474 Bolosan dist., Dagupan City, Pangasinan
+                <br>keisha.gonzales@gmail.com
+                <br>09995962564
+            </h5>
+        </div>
+    </div>
+    <h5>Personal Profile</h5>
+    <p style="background-color: rgb(206, 206, 185);">Versatile and certified Animation Artist from the Philippines,
+        specializing in storytelling through
+        self-published<br>
+        webcomics and short animated films. A graduate of the Animation Major in Bachelors of Science
+        Information<br>
+        Technology, I'm dedicated to delivering magical experiences for audiences. Eager to contribute my skills
+        and creativity<br>
+        to a dynamic team, I am continuously striving for excellence and pushing the boundless realm of
+        animation.
+    </p>
+
+    <h5>Work Experience</h5>
+    <h4><b>K&K's Creations</b></h4>
+    <p>
+    <ul>
+        <li>Position: Founder & Co-Owner</li>
+        <li><i>December 2023 - Present</i></li>
+    </ul>
+    </p>
+
+    <h4><b>Webtoon</b></h4>
+    <p>
+    <ul>
+        <li>Position: Webtoon Canvas Artist</li>
+        <li><i>June 2020 - November 2025</i></li>
+
+    </ul>
+    </p>
+
+    <h5>Key Skills</h5>
+
+    <div class="row">
+        <div class="column">
+            <table>
+                <tr>
+                    <th>Technical Skills</th>
+                </tr>
+                <tr>
+                    <td>Drawing Softwares:
+                        <ul>
+                            <li>Ibispaint X</li>
+                            <li>Clip Studio Paint</li>
+                            <li>Medibang</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Design Editing Softwares:
+                        <ul>
+                            <li>Canva</li>
+                            <li>Figma</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Animation Softwares:
+                        <ul>
+                            <li>Clip Studio Paint</li>
+                            <li>Adobe Animate</li>
+                            <li>Flipaclip</li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Intermediate Programmer in:
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <table>
+                <tr>
+                    <th>Soft Skills</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Artistic</li>
+                            <li>Adaptive</li>
+                            <li>Problem-Solver</li>
+                            <li>Creative Thinker</li>
+                            <li>Pays Attention to Details</li>
+                            <li>Reflective</li>
+                            <li>Self-Motivated</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </div>
+
+    <h5>Education</h5>
+    <h4><b>PHINMA-University of Pangasinan</b></h4>
+    <p>
+    <ul>
+        <li><b>Level/Degree:</b> Bachelors of Science in Information Technology
+        </li>
+        <li><b>Date(s):</b> 2023-2026</li>
+    </ul>
+    </p>
+
+    <h4><b>PHINMA-University of Pangasinan</b></h4>
+    <p>
+    <ul>
+        <li><b>Level/Degree:</b>Technical Vocational Track in Information Technology
+        </li>
+        <li><b>Date(s):</b> 2021-2023</li>
+    </ul>
+    </p>
+    <h6 style="text-align: center;">@itsmekeileigh</h6>
+    <h1 style="text-align: center;">-</h1>
+
+</body>
+
+</html>
